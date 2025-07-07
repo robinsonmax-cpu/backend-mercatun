@@ -16,6 +16,7 @@ app.post('/api/calcular', (req, res) => {
     nivel = 'MODERADO';
     recomendacion = 'Reduzca el consumo a una vez por quincena.';
   } else if (dosis > 2.5) {
+    
     nivel = 'ALTO';
     recomendacion = 'Evite consumir este tipo de atún.';
   }
